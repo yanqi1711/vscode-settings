@@ -1,6 +1,7 @@
 {
   "editor.mouseWheelZoom": true,
-  "editor.fontFamily": "Input Mono, SimHei, monospace",
+  // 测试
+  "editor.fontFamily": "Input Mono, SimHei",
   "editor.fontSize": 15,
   "editor.guides.bracketPairs": "active",
   "editor.lineNumbers": "interval",
@@ -9,7 +10,6 @@
   "workbench.iconTheme": "catppuccin-mocha",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredDarkColorTheme": "Vitesse Dark",
-  "workbench.preferredLightColorTheme": "Vitesse Light",
   "workbench.startupEditor": "newUntitledFile",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
@@ -78,9 +78,6 @@
   },
   "editor.accessibilitySupport": "off",
   "editor.cursorSmoothCaretAnimation": "on",
-  "window.dialogStyle": "custom",
-  "window.titleBarStyle": "custom",
-  "extensions.autoUpdate": "onlyEnabledExtensions",
   "extensions.ignoreRecommendations": true,
 
 
@@ -212,17 +209,21 @@
     "vite.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*",
     "vue.config.*": "*.env, .babelrc*, .codecov, .cssnanorc*, .env.*, .envrc, .htmlnanorc*, .lighthouserc.*, .mocha*, .postcssrc*, .terserrc*, api-extractor.json, ava.config.*, babel.config.*, contentlayer.config.*, cssnano.config.*, cypress.*, env.d.ts, formkit.config.*, formulate.config.*, histoire.config.*, htmlnanorc.*, jasmine.*, jest.config.*, jsconfig.*, karma*, lighthouserc.*, playwright.config.*, postcss.config.*, puppeteer.config.*, rspack.config.*, svgo.config.*, tailwind.config.*, tsconfig.*, tsdoc.*, uno.config.*, unocss.config.*, vitest.config.*, webpack.config.*, windi.config.*"
   },
-  "liveServer.settings.useLocalIp": true,
   "git.openRepositoryInParentFolders": "never",
-  "liveServer.settings.donotShowInfoMsg": true,
   "explorer.confirmPasteNative": false,
   "codeium.enableCodeLens": false,
   "workbench.colorTheme": "Vitesse Dark",
   "workbench.sideBar.location": "right",
   "codeium.enableConfig": {
-    "*": true
+    "*": true,
+    "markdown": true
   },
   "[vue]": {
     "editor.defaultFormatter": "Vue.volar"
   },
+  "workbench.activityBar.location": "top",
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false,
+  "workbench.preferredLightColorTheme": "Vitesse Light",
 }
